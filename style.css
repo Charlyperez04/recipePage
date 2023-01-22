@@ -44,6 +44,7 @@ body{
     padding-right: 25px;
     display: flex;
     justify-content: space-between;
+    margin-bottom:20px;
 }
 .description-atributes{
     display: flex;
@@ -69,4 +70,142 @@ body{
     font-size: 10px;
     line-height: 12px;
     color: #333333;
+}
+.ingredients-title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+}   
+.ingredients-first-title{
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    margin: 10px 0px 10px 0px;
+}
+.ingredients-list{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #333333;
+}
+.ingredients-list li{
+    list-style: none;
+}
+.checkbox{
+    cursor: pointer;
+    background-color: #fff;
+    width: 21px;
+    height: 21px;
+    appearance: none;
+    border: 1px solid #888;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+.checkbox:checked {
+    background-color:orange;
+  }
+  
+.ingredients-second-title{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+.instructions-title{
+    margin: 25px 0px 15px 0px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.instructions-list{
+    list-style-type: none;
+}
+.instructions-list li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.instructions-list li::before {
+    content:'';
+    font-weight: bold;
+    background-color: orange;
+    color: white;
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    margin-right: 10px;
+    justify-content: center;
+    border-radius: 15%;    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+}
+.instructions-list-item1::before{
+    content:'1'!important;
+}
+.instructions-list-item2::before{
+    content:'2'!important
+}
+.instructions-list-item3::before{
+    content:'3'!important
+}
+.instructions-list-item4::before{
+    content:'4'!important
+}
+.instructions-list-item5::before{
+    content:'5'!important
+}
+.instructions-list-item6::before{
+    content:'6'!important
+}
+.instructions-list-item7::before{
+    content:'7'!important
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer-container1{
+    height: 50px;
+}
+.footer-container1 p{
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #BDBDBD;
+}
+.footer-container2{
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+.footer-container2 p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
 }
