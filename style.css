@@ -209,3 +209,14 @@ footer{
     text-align: center;
     color: #828282;
 }
+@media screen and (min-width: 1000px){
+    body{
+        width: 1000px;
+        margin: auto;
+    }
+    .atributes-total{
+        display: block;
+        width: 216px;
+    height: 367px;
+    }
+}
